@@ -1,0 +1,151 @@
+* {
+    margin: 0 auto;
+    font-family: "PT Sans", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    margin-top: 177px;
+}
+
+.text {
+    font-size: 56px;
+    font-weight: 600;
+    margin-top: -140px;
+    margin-left: 78px;
+    color: #42567A;
+}
+
+.swiper-wrapper {
+    display: flex;
+    text-align: center;
+}
+
+.swiper {
+    width: 1440px;
+}
+
+#swiper__years {
+    margin-top: 96px;
+}
+
+
+#bottom__swiper {
+    max-width: 1200px;
+    margin: 126px 100px 100px 100px;
+    padding-bottom: 100px;
+}
+
+.first {
+    font-size: 200px;
+    font-weight: 600;
+    color: #5D5FEF;
+    
+}
+
+.second {
+    padding-left: 120px;
+    font-size: 200px;
+    font-weight: 600;
+    color: #EF5DA8;
+}
+
+.year {
+    text-align: left;
+    font-size: 25px;
+    padding-bottom: 15px;
+    color: #3877EE;
+}
+
+.bottom-swiper__descr {
+    font-family: 'PT Sans', sans-serif;
+    color: #42567A; 
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    width: 350px;
+}
+
+#btn-round__prev.swiper-button-disabled {
+    display: none;
+}
+
+.pagination {
+    margin-top: 137px;
+    margin-left: 89px;
+}
+.swiper-pagination-current {
+    letter-spacing: -2px;
+}
+
+.btn-top {
+    position: relative;
+    top: 30px;
+    left: -570px;
+    width: 135px;
+}
+
+.btn-bottom {
+    position: relative;
+    top: -315px;
+    width: 1430px;
+}
+
+.swiper-button-prev {
+    background-image: url('/prev.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 51px;
+    height: 51px;
+}
+
+.swiper-button-next {
+    background-image: url('/next.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 51px;
+    height: 51px;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.bottom-swiper__descr {
+    display: none;
+    &:nth-child(1) {
+        display: block;
+    }
+    &:nth-child(2) {
+        display: block;
+    }
+    &:nth-child(3) {
+        display: block;
+    }
+    &:nth-child(4) {
+        display: block;
+    }
+    &:nth-child(5) {
+        display: block;
+    }
+    &:nth-child(6) {
+        display: block;
+    }
+}
+
